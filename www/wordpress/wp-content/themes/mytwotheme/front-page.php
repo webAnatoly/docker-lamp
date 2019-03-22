@@ -17,6 +17,7 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+		<p>Моя тестовая главная страница</p>
 
 		<?php
 		while ( have_posts() ) :
