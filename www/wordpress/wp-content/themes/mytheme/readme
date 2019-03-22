@@ -1,0 +1,28 @@
+в этой папке я тренируюсь создавать темы для вордпресс. Вордпресс установлен в докере в папке уровнем выше /home/tolik/Projects/wp
+Эту же папку я подключаю как volume к докер-контейнеру.
+
+Структура папок в теме (ориентировачная)
+├── css (All CSS/Sass files except the main one are included here)
+│   ├── inc (Sass partials - theme styles only)
+|   |   ├── _base.scss
+|   |   ├── _header.scss
+|   |   ├── _footer.scss
+|   |   ├── _modules.scss
+|   |   ├── _woocommerce.scss
+|   |   └── ...etc
+│   ├── font-awesome.scss
+│   ├── font-awesome.css
+│   ├── magnific.scss
+│   ├── magnific.css
+│   ├── mmenu.scss
+|   ├── mmenu.css
+│   └── ... other vendor stylesheets
+├── fonts
+├── images
+├── js (All JavaScript files)
+├── ...
+├── ...
+├── style.css (Compiled theme styles)
+└── style.scss
+
+
