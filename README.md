@@ -17,4 +17,4 @@ Run mysql client:
 
 - `docker-compose exec db mysql -u root -p` 
 
-Enjoy !
+Enjoy ! https://github.com/jcavat/docker-lamp
