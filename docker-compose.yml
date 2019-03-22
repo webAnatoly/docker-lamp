@@ -6,8 +6,8 @@ services:
             - "8001:80"
         volumes:
             - ./www:/var/www/html/
-        links:
-            - db
+        depends_on:
+        - db
         networks:
             - default
     db:
@@ -28,8 +28,8 @@ services:
             - default
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
-        links: 
-            - db:db
+        depends_on:
+        - db
         ports:
             - 8000:80
         environment:
