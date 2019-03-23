@@ -82,6 +82,8 @@ define( 'WP_DEBUG', true );
 // If WordPress is installed into a directory called "wordpress" for the domain example.com, define WP_SITEURL like this:
 define( 'WP_SITEURL', 'http://localhost:8080/wordpress' );
 
+define('FS_METHOD', 'direct');
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
