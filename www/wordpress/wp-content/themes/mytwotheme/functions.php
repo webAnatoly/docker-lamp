@@ -153,6 +153,11 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
+ * Load TGM plugins.
+ */
+require get_template_directory() . '/tgm/mytwotheme.php'; // тут путь до плагинов контролируемых и видимо устанавливаемых через TGM 
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
