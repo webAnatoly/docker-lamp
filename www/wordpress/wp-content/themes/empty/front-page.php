@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/style.css">
     <title>Приватный софт для CS:GO</title>
   </head>
   <body>
     <h1 class="visually-hidden">Приватный софт для cs:go</h1>
     <div class="wrapper wrapper-index" id="wrapper-top">
       <section class="section">
-<div class="main"><img class="logo main__logo" src="./img/logo.4919860.png" alt="logo" srcset="">
+<div class="main"><img class="logo main__logo" src="<?php bloginfo('template_directory')?>/img/logo.4919860.png" alt="logo" srcset="">
   <p class="main__text-logo"><span class="marked">cheatingo</span>ru</p>
   <p class="main__slogan-small">Tакого ты еще не видел</p>
   <p class="main__slogan">Приватный софт <br> для cs:go</p>
@@ -74,8 +74,8 @@
           </div>
           <div class="row about__row">
             <div class="col-6 about__left-col">
-              <div class="about__img-container"><img src="./img/pic-about-1.df48fd0.png" alt="picture"></div>
-              <div class="about__img-container"><img src="./img/pic-about-2.20f34d0.png" alt="picture"></div>
+              <div class="about__img-container"><img src="<?php bloginfo('template_directory')?>/img/pic-about-1.df48fd0.png" alt="picture"></div>
+              <div class="about__img-container"><img src="<?php bloginfo('template_directory')?>/img/pic-about-2.20f34d0.png" alt="picture"></div>
             </div>
             <div class="col-6 about__right-col">
               <h2 class="about__h2">О нас</h2>
@@ -132,7 +132,7 @@
           <div class="screenshots__wrapper">
                         <div class="card_2">
                           <div class="card_2__body">
-                            <div class="card_2__icon-holder"><img src="./img/c2-brain.d061d02.png"></div>
+                            <div class="card_2__icon-holder"><img src="<?php bloginfo('template_directory')?>/img/c2-brain.d061d02.png"></div>
                             <div class="card_2__title">Название чита</div>
                           </div>
                           <div class="card_2__footer" data-target="sheat_01">
@@ -165,7 +165,7 @@
                         </div>
                         <div class="card_2">
                           <div class="card_2__body">
-                            <div class="card_2__icon-holder"><img src="./img/c2-shootingmark.67c960c.png"></div>
+                            <div class="card_2__icon-holder"><img src="<?php bloginfo('template_directory')?>/img/c2-shootingmark.67c960c.png"></div>
                             <div class="card_2__title">Название чита</div>
                           </div>
                           <div class="card_2__footer" data-target="sheat_04">
@@ -182,7 +182,7 @@
                               </div>
                               <div class="modal__body">
                                 <div class="modal__embed-wrapper">
-                                  <div class="modal__embed"><img src="./img/1.d66671d.png" alt="modal picture"></div>
+                                  <div class="modal__embed"><img src="<?php bloginfo('template_directory')?>/img/1.d66671d.png" alt="modal picture"></div>
                                 </div>
                                 <ul>
                                   <li> Выбор скорости наведения</li>
@@ -201,7 +201,7 @@
                               </div>
                               <div class="modal__body">
                                 <div class="modal__embed-wrapper">
-                                  <div class="modal__embed"><img src="./img/2.1859144.png" alt="modal picture"></div>
+                                  <div class="modal__embed"><img src="<?php bloginfo('template_directory')?>/img/2.1859144.png" alt="modal picture"></div>
                                 </div>
                                 <ul>
                                   <li> Перечисление возможностей</li>
@@ -219,7 +219,7 @@
                               </div>
                               <div class="modal__body">
                                 <div class="modal__embed-wrapper">
-                                  <div class="modal__embed"><img src="./img/3.c8b4a32.png" alt="modal picture"></div>
+                                  <div class="modal__embed"><img src="<?php bloginfo('template_directory')?>/img/3.c8b4a32.png" alt="modal picture"></div>
                                 </div>
                                 <ul>
                                   <li> Перечисление возможностей</li>
@@ -237,7 +237,7 @@
                               </div>
                               <div class="modal__body">
                                 <div class="modal__embed-wrapper">
-                                  <div class="modal__embed"><img src="./img/4.e7255ef.png" alt="modal picture"></div>
+                                  <div class="modal__embed"><img src="<?php bloginfo('template_directory')?>/img/4.e7255ef.png" alt="modal picture"></div>
                                 </div>
                                 <ul>
                                   <li> Перечисление возможностей</li>
