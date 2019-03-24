@@ -1,3 +1,20 @@
+<?php 
+/**
+ * front-page.php
+ * The front page template is always used as the site front page if it exists, regardless of what settings on Admin > Settings > Reading.
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#common-wordpress-template-files
+ *
+ * @package empty
+ */
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
