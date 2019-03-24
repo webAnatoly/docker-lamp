@@ -15,16 +15,7 @@
 
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/style.css">
-    <title>Приватный софт для CS:GO</title>
-  </head>
-  <body>
+<?php get_header('front') ?>
     <h1 class="visually-hidden">Приватный софт для cs:go</h1>
     <div class="wrapper wrapper-index" id="wrapper-top">
       <section class="section">
@@ -381,7 +372,7 @@
           </div>
         </div>
       </footer>
-      <script src="./js/main.js"></script>
+      <!-- <script src="./js/main.js"></script> -->
     </div>
   </body>
 </html>

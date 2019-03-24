@@ -119,18 +119,28 @@ add_action( 'widgets_init', 'empty_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
-function empty_scripts() {
-	wp_enqueue_style( 'empty-style', get_stylesheet_uri() );
+function register_my_scripts() {
+	// если нужно отключить jquery который идет в комплекте с wordpress нужно выполнить wp_deregister_script('jquery')
+
+	// wp_enqueue_script( 'empty-navigation', get_template_directory_uri() . '/js/main.js', array(), '1.0', true );
 
 	wp_enqueue_script( 'empty-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'empty-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
+	wp_enqueue_script( 'myMain', get_template_directory_uri() . '/js/main.js', array(), '1.0', true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'empty_scripts' );
+add_action( 'wp_enqueue_scripts', 'register_my_scripts' );
+
+
+function register_my_styles() {
+	wp_enqueue_style( 'empty-style', get_stylesheet_uri());
+}
+add_action( 'wp_enqueue_scripts', 'register_my_styles' );
 
 /**
  * Implement the Custom Header feature.
